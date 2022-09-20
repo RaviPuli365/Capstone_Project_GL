@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1")
-//@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://3.90.12.52:3000")
 public class ChatController {
 @Autowired
     private ChatService chatService;

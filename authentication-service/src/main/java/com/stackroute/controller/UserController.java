@@ -10,7 +10,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://3.90.12.52:3000")
 @RequestMapping("/api/v2")
 public class UserController {
 
